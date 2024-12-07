@@ -1,0 +1,24 @@
+for creating Database use this command -> 
+CREATE DATABASE DB  {DB-name}
+add if not exists for check and not making errors 
+
+for deleting database use this command -> 
+DROP DATABASE {DB-Name}
+
+add if exist to checkout it's exist and then delete
+
+
+adding charachter set can be a good thing to support the type of characters you want add
+
+utf8mb3 is just supporting characters and not emojis 
+utf8mb4 is just supporting characters and support emojis too
+
+
+
+collacte is use for sorting the datas 
+like persian_ci  or etc..
+
+Example : 
+
+CREATE DATABASE db1  DEFAULT CHARACTER SET utf8mb4  COLLATE utf8mb4_0900_ai_ci
+

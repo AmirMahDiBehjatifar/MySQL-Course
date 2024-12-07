@@ -1,0 +1,10 @@
+with ALTER Table we make some changes on exist Table like adding a field , removing or change charachter count
+
+ALTER TABLE user
+
+ADD email VARCHAR(100);  -- Add Example --
+DROP COLUMN email; -- remove a  column -- 
+MODIFY COLUMN bio varchar(50)
+
+ALTER TABLE `user`
+RENAME COLUMN BIO TO bioGraphy

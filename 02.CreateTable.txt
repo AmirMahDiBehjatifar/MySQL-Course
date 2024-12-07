@@ -1,0 +1,13 @@
+for creating table you should follow this structure 
+ID must be PRIMARY KEY to not repating and not null by default when you add it to primary key 
+adding AUTO_INCREMENET makes it taking a value by machine 
+
+CREATE TABLE users (
+    id INT PRIMARY KEY AUTO_INCREMENET,
+    firstname VARCHAR(50) NOT NULL,
+    lastname VARCHAR(50) NOT NULL, 
+    BIO TEXT,
+)
+
+inserting value
+INSERT INTO `sqlcourse`.`user` (`firstname`, `lastname`, `bio`) VALUES ('Milad', 'Azami', 'FrontEnd Developer')

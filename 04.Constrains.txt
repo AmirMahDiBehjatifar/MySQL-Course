@@ -1,0 +1,14 @@
+DROP TABLE IF EXISTS city;
+CREATE TABLE IF NOT EXISTS city(
+    id INT PRIMARY KEY NOT NULL auto_increment,
+    name VARCHAR(100) NOT NULL DEFAULT 'city_name'
+);
+
+DROP TABLE IF EXISTS student;
+CREATE TABLE IF NOT EXISTS student(
+    id INT PRIMARY KEY auto_increment,
+    national_code VARCHAR(10) UNIQUE NOT NULL,
+    age int NOT NULL DEFAULT 18,
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    CHECK(age >= 18)
+);
