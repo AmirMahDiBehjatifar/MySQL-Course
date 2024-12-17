@@ -3,3 +3,18 @@ SELECT * from user;
 WHERE age <= 28 AND firstname = "Jhon" OR lastname = "x"
 
 WHERE NOT city = "new york" AND city = "LOS ANGELS"
+
+
+IN SELECT we have some functions to having better SELECTIONS
+
+
+-- AVG , SUM , count , min , max , order by
+
+ SELECT * FROM user
+ ORDER BY firstname DESC;
+
+ SELECT count(id) FROM users
+ SELECT SUM(balance) as AllBalance FROM users
+
+DESC : az bozorg be kochick
+ASC : az kochick be bozorg 
