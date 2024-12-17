@@ -1,0 +1,5 @@
+SELECT * from user;
+
+WHERE age <= 28 AND firstname = "Jhon" OR lastname = "x"
+
+WHERE NOT city = "new york" AND city = "LOS ANGELS"

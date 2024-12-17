@@ -1,0 +1,9 @@
+INSERT INTO : zamani estefade mishe baraye ezafe kardan record be field haye jadval db 
+
+hamchenin mitonim chandin record ezafe konim 
+
+INSERT INTO  user (fname,lastname,bio)
+VALUES 
+("ERFAN","usefi","dev"),
+("ERFAN","usefi","dev"),
+("ERFAN","usefi","dev")

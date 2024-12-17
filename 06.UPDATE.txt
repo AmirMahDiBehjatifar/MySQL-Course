@@ -1,0 +1,6 @@
+update command  estefade mishe baraye ijad taghirat dar yek record sabt shode
+
+
+UPDATE db1.'user'
+SET firstname = "YASER", lastname = "beigmohammadi"
+WHRE id = 1;

@@ -12,3 +12,7 @@ CREATE TABLE IF NOT EXISTS student(
     created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
     CHECK(age >= 18)
 );
+
+
+with constrains we check something like if else
+if user.age > 18 then pass for register
