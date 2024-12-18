@@ -1,0 +1,7 @@
+for search we use like
+
+select * from users
+like city = '%a' (in this will return things starting with a )
+in my opinion the most useful is 
+
+like name = '%the thing user searched%' 
