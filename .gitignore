@@ -1,6 +1,9 @@
+<<<<<<< HEAD
 node_modules
 package-lock.json
 package.json
 server.js
 verify.js
 index.html
+=======
+>>>>>>> 95e351a4d2604df5bbf6445dcb76d39998af60fb
